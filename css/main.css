@@ -1,0 +1,544 @@
+@font-face{
+  font-family: 'Arial Rounded MT';
+    src: url('ArialRoundedMTBold.eot');
+    src: url('ArialRoundedMTBold.eot?#iefix') format('embedded-opentype'),
+        url('ArialRoundedMTBold.woff2') format('woff2'),
+        url('ArialRoundedMTBold.woff') format('woff'),
+        url('ArialRoundedMTBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+  margin-right: -10px;
+}
+
+.gifz{
+  position: fixed;
+  
+  z-index: -1;
+  width: 100%;
+  height: 200%;
+  opacity: 0.2;
+  background-image: url("../img/PA.gif");
+}
+
+
+#header {
+  font-family: 'Arial Rounded MT';
+  position: fixed;
+  top: 0;
+  background-color: white;
+  float: left;
+  color: #000;
+  padding: 0px;
+  width: 100%;
+  text-align: center;
+  border: 2px solid black;
+  height: 28vw;
+  z-index: 1;
+  border-style: hidden hidden solid hidden;
+}
+
+.leftName {
+  font-size: 8.4vw;
+  float: left;
+  /*width: 30%;*/
+  padding-left: 30px;
+}
+
+.rightName {
+  font-size: 8.4vw;
+  float: right;
+  /*width: 70%;*/
+  
+  padding-right: 30px;
+}
+
+
+.underName {
+  font-size: 3.8vw;
+  float: left;
+  padding: 5px;
+  padding-left: 34px;
+  margin-top: -3.8vw;
+  margin-bottom: -100px;
+}
+
+#day22{
+  font-size: 8.6vw;
+  float: left;
+  width: 33.3%;
+  text-align: left;
+  padding: 5px;
+  padding-left: 30px; 
+}
+
+#day23{
+  font-size: 8.6vw;
+  float: left;
+  width: 33.3%;
+  text-align: center;
+  padding: 5px; 
+}
+#day24{
+  font-size: 8.6vw;
+  float: left;
+  width: 33.3%;
+  text-align: right;
+  padding: 5px;
+  padding-right: 30px; 
+}
+
+
+.panel_info {
+  font-family: 'Arial Rounded MT';
+  padding: 0 0px;
+  background-color: rgba(230, 230, 230);
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  max-height: 0px;
+  transition: 0s;
+}
+
+.leftName {
+  text-align: left;
+}
+
+.rightName {
+  text-align: right;
+}
+
+.accordion {
+  float: left;
+  font-family: 'Arial Rounded MT';
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  padding: 0px;
+  width: 33.33%;
+  text-align: center;
+  border: 1px solid black;
+  /*border-radius: 5px;*/
+  outline: none;
+  transition: 0.4s;
+  height: 8.75vh;
+  font-size: 30px;
+}
+
+.panel_event {
+  font-family: 'Arial Rounded MT';
+  padding: 0 0px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  max-height: 0px;
+  transition: 0.4s;
+}
+
+#mainpanel{
+  background-color: black;
+}
+
+.inside{
+      font-family: 'Arial Rounded MT';
+      padding: 0 0 0 0px;
+      border: 0px solid black;
+      font-size: 4vw;
+      margin: 0px;
+      height: 0px;
+    }
+
+.gallery{
+  height: 800px;
+  overflow-y: overlay;
+  overflow-x: hidden;
+  margin-bottom: 20px;
+}
+
+.about {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  padding: 0px;
+  width: 100%;
+  text-align: center;
+  border: 1px solid white;
+ /*border-radius: 5px;*/
+  position: fixed;
+  overflow: hidden;
+  bottom: 0;
+  outline: none;
+  transition: 0.4s;
+  height: 60px;
+  font-size: 30px;
+  border-style: solid hidden hidden hidden;
+  border: 1px solid black;
+
+}
+
+@keyframes slideleft {
+  from { background-position: 0%; }
+  to { background-position: 90000%; }
+}
+
+/* .about {
+  background-image: url("Fascia.jpg"); //PER EVENTUALE MARQUEE
+  background-size: cover;
+  background-repeat: repeat-x;
+  animation: slideleft 1000s infinite linear;
+} */
+
+#insidefirst{
+  font-family: 'Arial Rounded MT';
+  padding: 0 0 0 10px;
+  height: 10vh;
+  /*border-radius: 5px;*/
+  border-top: 1px solid black;
+  text-align: left;
+  font-size: 30px;
+}
+
+.panel {
+  font-family: 'Arial Rounded MT';
+  padding: 0 0px;
+  background-color: white;
+  display: none;
+  border-left: 0px solid black;
+  border-right: 0px solid white;
+  /*border-radius: 5px;*/
+  overflow: hidden;
+}
+
+p {
+  font-family: 'Arial Rounded MT';
+  padding: 0 0%;
+  font-size: 25px;
+}
+
+
+
+#insidepanel{
+  border:1px solid black;
+}
+
+#Mercoledì, #Giovedì, #Venerdì {
+  border-top: 1px solid black;
+  width: 33.1%;
+  border-right: 1px solid white;
+  border-left: 1px solid black;
+}
+
+#Archive{
+  border-bottom: 3px solid black;
+  border-top: 2px solid white;
+  border-left: 0px solid white;
+}
+
+#Live{
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  border-left: 1px solid black;
+}
+
+audio {
+width: 98%;
+margin: 0% 1% 1% 1%;
+}
+
+audio:focus{
+outline:none;
+}
+
+.livemain_22{
+
+  font-family: 'Arial Rounded MT';
+  /*background-color: rgb(255,255,255);*/
+  margin-top: 28vw;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 3vw;
+  text-align: left;
+  padding: 30px;
+  border: 0px solid red;
+}
+
+.livemain_23{
+
+  font-family: 'Arial Rounded MT';
+  /*background-color: rgb(255,255,255);*/
+  margin-top: 28vw;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 3vw;
+  text-align: left;
+  padding: 30px;
+  border: 0px solid red;
+}
+
+.livemain_24{
+
+  font-family: 'Arial Rounded MT';
+  /*background-color: rgb(255,255,255);*/
+  margin-top: 28vw;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 3vw;
+  text-align: left;
+  padding: 30px;
+  border: 0px solid red;
+}
+
+.listElement{
+  border: 2px solid black;
+  transition-duration: 0.5s;
+}
+
+th {
+  font-family: 'Arial Rounded MT';
+  font-weight: normal;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.eventDate{
+  font-size: 3vw;
+  color: white;
+  text-align: left;
+  width: 100%;
+}
+
+.eventName{
+  font-size: 6vw;
+  text-align: left;
+  line-height: 4.5vw;
+  padding-top: 5px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 8px;
+}
+
+.eventName autori{
+  font-size: 3vw;
+  line-height: 1vw;
+}
+
+audio{
+  margin-top: -10px;
+  margin-bottom: 50px;
+}
+
+img{
+  width: 96%;
+  max-width: 96%;
+  height: auto;
+  margin: 20px;
+}
+
+.didascalia{
+  font-size: 3vw;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+.didaUrl{
+  font-size: 3vw;
+  text-align: right;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    color: black;
+    background: transparent; /* make scrollbar transparent */
+}
+
+selector::-webkit-scrollbar { display:none }
+
+
+
+@media screen and (min-width: 600px) {
+  .livemain_22{
+    margin-top: 11.5vw;
+    width: 33%;
+    float: left;
+    height: 700px;
+    padding: 10px;
+    padding-top: 0px;
+    position: relative;
+    overflow: scroll; 
+    font-size: 10px;
+    display:grid;
+
+  }
+  .livemain_23{
+    margin-top: 11.5vw;
+    width: 33%;
+    float: left;
+    height: 700px;
+    overflow: scroll;
+    padding: 10px;
+    padding-top: 0px;
+    position: relative;
+    font-size: 10px;
+    display:grid;
+  }
+  .livemain_24{
+    margin-top: 11.5vw;
+    width: 33%;
+    float: left;
+    height: 700px;
+    overflow: scroll;
+    padding: 10px;
+    padding-top: 0px;
+    position: relative;
+    font-size: 30px;
+    display:grid;
+  }
+  #header {
+    
+    height: 7vw;
+    width: 98.5vw;
+    /*background-color: red;*/
+    border-style: hidden solid solid solid;
+    border-color: black;
+    border-width: 2px;
+    margin: 0px 10px;
+    background-color: transparent;
+    
+  }
+
+  .leftName {
+    font-size: 4.2vw;
+    float: left;
+    /*width: 30%;*/
+    padding-left: 10px;
+    text-align: left;
+    top: 1vw;
+  }
+
+  .rightName {
+    font-size: 4.2vw;
+    text-align: left;
+    float: left;
+    width: 80%;
+    padding-left: 10px;
+    text-align: left;
+  }
+
+  .underName {
+    font-size: 1vw;
+    padding-top: 2.8vw;
+    padding-left: 10px;
+
+  }
+
+
+  #day22{
+    font-size: 2.4vw;
+    float: left;
+    width: 33.3%;
+    text-align: left; 
+    margin-top: 2vw;
+    padding: 0px;
+  }
+
+  #day23{
+    font-size: 2.4vw;
+    float: left;
+    text-align: left;
+    width: 33.3%;
+    margin-top: 2vw; 
+    padding: 0px;
+    padding-left: 5px;
+  }
+  #day24{
+    font-size: 2.4vw;
+    float: left;
+    width: 33.3%;
+    text-align: left;
+    margin-top: 2vw;
+    padding: 0px;
+    padding-left: 10px;
+  }
+
+  
+  th {
+    font-family: 'Arial Rounded MT';
+    font-weight: normal;
+    padding-top: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 2vw;
+  }
+   
+  .eventDate{
+    font-size: 1vw;
+    color: white;
+    text-align: left;
+    width: 100%;
+    margin: 0px;
+    height: 2vw;
+
+  }
+
+  .eventName{
+    font-size: 2vw;
+    text-align: left;
+    line-height: 2vw;
+    padding-top: 0px;
+    padding-left: 5px;
+    margin-bottom: 30px;
+    margin-top: 1px;
+    height: 5vw;
+  }
+
+  .eventName autori{
+    font-size: 1vw;
+    line-height: 1px !important;
+  }
+
+  table{
+    border-spacing: 0px;
+  }
+
+  img{
+    width: 95%;
+    max-width: 100%;
+    margin: 0px 7px 10px 7px; 
+  }
+
+  .gallery{
+    margin-bottom: -5px;
+  }
+
+  .didascalia{
+    font-size: 1vw;
+    text-align: left;
+    margin-left: 7px;
+    padding-top: 5px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+
+  .didaUrl{
+    font-size: 1vw;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 7px;
+    padding-top: 5px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+
+   
+}
