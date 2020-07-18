@@ -738,7 +738,6 @@ selector::-webkit-scrollbar { display:none }
 
   .gallery{
     margin-bottom: -5px;
-    display:flex;
     justify-content:center;
     align-items:center;
     
@@ -762,5 +761,7 @@ selector::-webkit-scrollbar { display:none }
     margin-bottom: 15px;
     margin-top: 10px;
   }
-   
+   p{
+    margin-top: 50px;
+   }
 }
