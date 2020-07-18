@@ -512,11 +512,11 @@
 
   <!--CLOSE PRINCIPALE-->
 
-  <!--MARQUEE
+  <!--MARQUEE -->
   <div id="footer">
     <marquee class="about" scrolldelay="25" scrollamount="4" truespeed="" style="position: sticky; font-size: 25px; height: 2vw; font-family: 'Arial Rounded MT'; " onclick="window.open('http://www.isiaurbino.net/', '_blank')">💀   💀💀  💀💀  ACQUISTA LA T-SHIRT  💀💀  💀💀   💀</marquee>
   </div>
-  -->
+
 
 </body>
 <!--CLOSE BODY-->
@@ -528,9 +528,9 @@
   var start = 0 //hour PARADE starts
   for (i = start; i < now.getHours() ; i++) {
     //+20 UP HERE TO MAKE ALL EVENTS AVAILABLE, DELETE IT
-    document.getElementsByClassName('listElement')[i-start +20].style.color = "black";
+    document.getElementsByClassName('listElement')[i-start ].style.color = "black";
   }
-  for (i = document.getElementsByClassName('listElement').length; i > now.getHours()-start +10 ; i--) {
+  for (i = document.getElementsByClassName('listElement').length; i > now.getHours()-start  ; i--) {
     //+10 UP HERE TO MAKE ALL EVENTS AVAILABLE, DELETE IT
     document.getElementsByClassName('listElement')[i-1].style.color = "lightgrey";
   }
