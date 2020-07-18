@@ -364,45 +364,47 @@ img{
 
 selector::-webkit-scrollbar { display:none }
 
-
-
+/*MEDIA QUERY DESKTOP >600*/
 @media screen and (min-width: 600px) {
   .livemain_22{
-    margin-top: 11.5vw;
+    margin-top: 10.8vw;
     width: 33%;
     float: left;
-    height: 700px;
+    height: 720px;
     padding: 10px;
     padding-top: 0px;
     position: relative;
     overflow: scroll; 
     font-size: 10px;
     display:grid;
+    margin-bottom: 5px;
 
   }
   .livemain_23{
-    margin-top: 11.5vw;
+    margin-top: 10.8vw;
     width: 33%;
     float: left;
-    height: 700px;
+    height: 720px;
     overflow: scroll;
     padding: 10px;
     padding-top: 0px;
     position: relative;
     font-size: 10px;
     display:grid;
+    margin-bottom: 5px;
   }
   .livemain_24{
-    margin-top: 11.5vw;
+    margin-top: 10.8vw;
     width: 33%;
     float: left;
-    height: 700px;
+    height: 720px;
     overflow: scroll;
     padding: 10px;
     padding-top: 0px;
     position: relative;
     font-size: 30px;
     display:grid;
+    margin-bottom: 5px;
   }
   #header {
     
@@ -448,7 +450,7 @@ selector::-webkit-scrollbar { display:none }
     float: left;
     width: 33.3%;
     text-align: left; 
-    margin-top: 2vw;
+    margin-top: 1.3vw;
     padding: 0px;
   }
 
@@ -457,7 +459,7 @@ selector::-webkit-scrollbar { display:none }
     float: left;
     text-align: left;
     width: 33.3%;
-    margin-top: 2vw; 
+    margin-top: 1.3vw; 
     padding: 0px;
     padding-left: 5px;
   }
@@ -466,7 +468,7 @@ selector::-webkit-scrollbar { display:none }
     float: left;
     width: 33.3%;
     text-align: left;
-    margin-top: 2vw;
+    margin-top: 1.3vw;
     padding: 0px;
     padding-left: 10px;
   }
@@ -551,6 +553,214 @@ selector::-webkit-scrollbar { display:none }
     margin-bottom: 15px;
     margin-top: 10px;
   }
+   
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MEDIA QUERY DESKTOP >1000*/
+@media screen and (min-width: 1000px) {
+  .livemain_22{
+    margin-top: 10.8vw;
+    width: 33%;
+    float: left;
+    height: 720px;
+    padding: 10px;
+    padding-top: 0px;
+    position: relative;
+    overflow: scroll; 
+    font-size: 10px;
+    display:grid;
+    margin-bottom: 5px;
+
+  }
+  .livemain_23{
+    margin-top: 10.8vw;
+    width: 33%;
+    float: left;
+    height: 720px;
+    overflow: scroll;
+    padding: 10px;
+    padding-top: 0px;
+    position: relative;
+    font-size: 10px;
+    display:grid;
+    margin-bottom: 5px;
+  }
+  .livemain_24{
+    margin-top: 10.8vw;
+    width: 33%;
+    float: left;
+    height: 720px;
+    overflow: scroll;
+    padding: 10px;
+    padding-top: 0px;
+    position: relative;
+    font-size: 30px;
+    display:grid;
+    margin-bottom: 5px;
+  }
+  #header {
+    
+    height: 7vw;
+    width: 98.5vw;
+    /*background-color: red;*/
+    border-style: hidden solid solid solid;
+    border-color: black;
+    border-width: 2px;
+    margin: 0px 10px;
+    background-color: transparent;
+    
+  }
+
+  .leftName {
+    font-size: 4.2vw;
+    float: left;
+    /*width: 30%;*/
+    padding-left: 10px;
+    text-align: left;
+    top: 1vw;
+  }
+
+  .rightName {
+    font-size: 4.2vw;
+    text-align: left;
+    float: left;
+    width: 80%;
+    padding-left: 10px;
+    text-align: left;
+  }
+
+  .underName {
+    font-size: 1vw;
+    padding-top: 2.8vw;
+    padding-left: 10px;
+
+  }
+
+
+  #day22{
+    font-size: 2.4vw;
+    float: left;
+    width: 33.3%;
+    text-align: left; 
+    margin-top: 1.3vw;
+    padding: 0px;
+  }
+
+  #day23{
+    font-size: 2.4vw;
+    float: left;
+    text-align: left;
+    width: 33.3%;
+    margin-top: 1.3vw; 
+    padding: 0px;
+    padding-left: 5px;
+  }
+  #day24{
+    font-size: 2.4vw;
+    float: left;
+    width: 33.3%;
+    text-align: left;
+    margin-top: 1.3vw;
+    padding: 0px;
+    padding-left: 10px;
+  }
+
+  
+  th {
+    font-family: 'Arial Rounded MT';
+    font-weight: normal;
+    padding-top: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 2vw;
+  }
+   
+  .eventDate{
+    font-size: 1vw;
+    color: white;
+    text-align: left;
+    width: 100%;
+    margin: 0px;
+    height: 2vw;
+
+  }
+
+  .eventName{
+    font-size: 2vw;
+    text-align: left;
+    line-height: 2vw;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-bottom: 30px;
+    margin-top: 1px;
+    height: 3.5vw;
+  }
+
+  .eventName autori{
+    display: inline-block;
+    font-size: 1vw;
+    line-height: 1.3vw !important;
+    padding-top: 5px;
+  }
+
+  table{
+    border-spacing: 0px;
+  }
+
+  .inside{
+      font-family: 'Arial Rounded MT';
+      padding: 0 0 0 0px;
+      border: 0px solid black;
+      font-size: 4vw;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+
+  img{
+    width: 95%;
+    max-width: 100%;
+    margin: 0px 7px 10px 7px; 
+  }
+
+  .gallery{
+    margin-bottom: -5px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+  }
+
+  .didascalia{
+    font-size: 1vw;
+    text-align: left;
+    margin-left: 7px;
+    padding-top: 5px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+
+  .didaUrl{
+    font-size: 1vw;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 7px;
+    padding-top: 5px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
    
 }
