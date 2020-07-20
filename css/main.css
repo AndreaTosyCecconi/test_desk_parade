@@ -922,5 +922,17 @@ selector::-webkit-scrollbar { display:none }
     float: right;
     padding-right: 31px;
     color: rgb(178, 180, 182);
+  }
+
+  .livemain_22{
+    height: 76vh;
+  }
+  .livemain_23{
+    height: 76vh;
+  }
+  
+  .livemain_24{
+    height: 76vh;
+  }
 
 }
