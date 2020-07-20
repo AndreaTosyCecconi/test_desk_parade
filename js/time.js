@@ -97,11 +97,11 @@ function checkLayout(){
     document.getElementsByClassName("livemain_22")[0].style.display = "block";
     document.getElementsByClassName("livemain_23")[0].style.display = "block";
     document.getElementsByClassName("livemain_24")[0].style.display = "block";
-    document.getElementById("day24").style.color = "lightgrey";
+    document.getElementById("day24").style.color = "black";
     document.getElementById("day24").innerHTML = "24 luglio";
-    document.getElementById("day22").style.color = "lightgrey";
+    document.getElementById("day22").style.color = "black";
     document.getElementById("day22").innerHTML = "22 luglio";
-    document.getElementById("day23").style.color = "lightgrey";
+    document.getElementById("day23").style.color = "black";
     document.getElementById("day23").innerHTML = "23 luglio";
   } else {
     // MOBILE
