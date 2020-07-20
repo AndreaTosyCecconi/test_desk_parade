@@ -20,10 +20,12 @@
   <!--HEADER-->
 <div id="header">
   <div class="leftName">
-    <a href="http://www.isiaurbino.net/" target="_blank" style="text-decoration: none; color: lightgrey">ISIA U</a>
+    <a href="http://www.isiaurbino.net/" target="_blank" style="text-decoration: none; color: rgb(178, 180, 182)">ISIA U</a>
   </div>
   <div class="rightName">PARADE 2020</div>
-  <div class="underName">Interviste, progetti, playlist.</div>
+  
+
+  <div class="underName">Interviste, progetti, playlist. <a href="#footer" style="text-decoration: none;color: rgb(178, 180, 182)">about</a></div>
 
 </div>
 
@@ -35,7 +37,7 @@
 
 
   <!--CLOSE HEADER-->
-
+<div id="main">
   <!--PRINCIPALE-->
   <div class="livemain_22" style="display: block">
     <div class="listElement unavailable" id="22_1">
@@ -745,6 +747,7 @@ Attratto fin da giovanissimo dalla musica elettronica, dopo un'epifania raggiunt
     </div>
 
   </div>
+</div>
 
   <!--CLOSE PRINCIPALE-->
 
@@ -754,30 +757,35 @@ Attratto fin da giovanissimo dalla musica elettronica, dopo un'epifania raggiunt
   </div>
   MARQUEE-->
 <div id="footer">
+    <a onclick="topFunction()" id="myBtn" style="width: 100%;text-align: right;">X</a>
     <div class="colophon">
       <p>ISIA Parade è l’evento di fine anno di ISIA Urbino. In mostra, oltre a una selezione di tesi di laurea dalle ultime tre sessioni, gli output di alcuni corsi e dei workshop tenuti con ospiti nazionali e internazionali. 
-L’evento offre uno sguardo sull’eterogeneità della proposta didattica e sull’approccio sperimentale al progetto perseguito dall’istituto. Gli elaborati, che mostrano una molteplicità di linguaggi, dall’editoria alla fotografia, dall’illustrazione alla tipografia, presentano diversi ambiti di applicazione del progetto di comunicazione.
-ISIA Parade è anche l’occasione per riunire la comunità ISIA Urbino. Quest’anno l’evento va online con un nuovo format streaming che raccoglie showcase di progetti, interviste, playlist e molto altro.
-<br>
-direttore
-Jonathan Pierini
-<br>
-team comunicazione
-<br>
-tutor 
-Francesco Delrosso
-Filippo Emiliani
-<br>
-studentesse/studenti
-Davide Catena
-Andrea Cecconi
-Gloria Favaro
-Nicola Giorgio
-Diego Massaro
-Nicola Narbone
-Marco Pagan
-Carlo Andrea Schlatter</p>      
+      L’evento offre uno sguardo sull’eterogeneità della proposta didattica e sull’approccio sperimentale al progetto perseguito dall’istituto. Gli elaborati, che mostrano una molteplicità di linguaggi, dall’editoria alla fotografia, dall’illustrazione alla tipografia, presentano diversi ambiti di applicazione del progetto di comunicazione.
+      ISIA Parade è anche l’occasione per riunire la comunità ISIA Urbino. Quest’anno l’evento va online con un nuovo format streaming che raccoglie showcase di progetti, interviste, playlist e molto altro.
+      <br>
+      direttore
+      <br>
+      Jonathan Pierini
+      <br>
+      team comunicazione
+      <br>
+      tutor 
+      <br>
+      Francesco Delrosso
+      Filippo Emiliani
+      <br>
+      studentesse/studenti
+      <br>
+      Davide Catena
+      Andrea Cecconi
+      Gloria Favaro
+      Nicola Giorgio
+      Diego Massaro
+      Nicola Narbone
+      Marco Pagan
+      Carlo Andrea Schlatter</p>      
     </div>
+    <!--<a href=".leftName">TORNA SU</a> -->
 </div>
 
 
@@ -785,6 +793,12 @@ Carlo Andrea Schlatter</p>
 <!--CLOSE BODY-->
 
 <script>
+
+  mybutton = document.getElementById("myBtn");
+  function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
 
 
   //SCRIPT TO OPEN EVENTS

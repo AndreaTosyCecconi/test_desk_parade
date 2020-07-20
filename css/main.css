@@ -19,9 +19,17 @@ body{
   overflow: hidden;
 }
 
-#footer{
+#main{
+  top: 27vw;
+  width: 100%;
+  height: 87vh;
+  position: fixed;
+}
 
-  display:none;
+#footer{
+  z-index: 3;
+  overflow:scroll;
+  top:101vh;
   float:left;
   position: absolute;
   width: 100%;
@@ -31,7 +39,7 @@ body{
 }
 
 .colophon{
-  font-size: 15px;
+  font-size: 8px;
 
 }
 
@@ -288,7 +296,7 @@ outline:none;
 
   font-family: 'Arial Rounded MT';
   /*background-color: rgb(255,255,255);*/
-  margin-top: 28vw;
+  
   margin-bottom: 10px;
   width: 100%;
   font-size: 3vw;
@@ -308,7 +316,7 @@ outline:none;
 
   font-family: 'Arial Rounded MT';
   /*background-color: rgb(255,255,255);*/
-  margin-top: 28vw;
+  
   margin-bottom: 10px;
   width: 100%;
   font-size: 3vw;
@@ -328,7 +336,7 @@ outline:none;
 
   font-family: 'Arial Rounded MT';
   /*background-color: rgb(255,255,255);*/
-  margin-top: 28vw;
+  
   margin-bottom: 20px;
   width: 100%;
   font-size: 3vw;
@@ -470,12 +478,24 @@ selector::-webkit-scrollbar { display:none }
 /*@media screen and (min-width: 600px)*/
 @media (min-width: 600px) {
 
+  #main{
+    top: 11vw;
+    width: 100%;
+    height: 91vh;
+    position: fixed;
+  }
+
   body{
-    margin-left: 13px;
+    margin-left: 6px;
+
+  }
+
+  .gifz{
+    margin:-13px;
   }
   #header {
     height: 7vw;
-    width: 96.75vw;
+    width: 97.7vw;
     
     
   }
@@ -524,7 +544,7 @@ selector::-webkit-scrollbar { display:none }
     margin-top: .3vw; 
     padding: 0px;
     margin-left: -5px;
-    padding-left: 16px;
+    padding-left: 22px;
     padding-bottom: 5px;
     
   }
@@ -533,12 +553,12 @@ selector::-webkit-scrollbar { display:none }
     text-align: left;
     margin-top: .3vw;
     padding: 0px;
-    padding-left: 6px;
+    padding-left: 18px;
     padding-bottom: 5px;
   }
 
   .livemain_22{
-    margin-top: 10.8vw;
+    margin-top: 0px;
     width: 33%;
     float: left;
     height: 81vh;
@@ -552,7 +572,7 @@ selector::-webkit-scrollbar { display:none }
 
   }
   .livemain_23{
-    margin-top: 10.8vw;
+    margin-top: 0px;
     width: 33%;
     float: left;
     height: 81vh;
@@ -565,7 +585,7 @@ selector::-webkit-scrollbar { display:none }
     margin-bottom: 5px;
   }
   .livemain_24{
-    margin-top: 10.8vw;
+    margin-top: 0px;
     width: 33%;
     float: left;
     height: 81vh;
