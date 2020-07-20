@@ -19,6 +19,21 @@ body{
   overflow: hidden;
 }
 
+#footer{
+
+  display:none;
+  float:left;
+  position: absolute;
+  width: 100%;
+  padding: 30px;
+  background-color: black;
+  color: white;
+}
+
+.colophon{
+  font-size: 15px;
+
+}
 
 .gifz{
   position: fixed;
@@ -71,13 +86,22 @@ body{
   margin-bottom: -50px;
 }
 
+#date{
+  font-family: 'Arial Rounded MT';
+  position: fixed;
+  top:16vw;
+  width:100%;
+  height: 11vw;
+}
+
 #day22{
   font-size: 8.6vw;
   float: left;
   width: 33.3%;
   text-align: left;
-  padding: 2.5px;
-  padding-left: 5px; 
+  padding-left: 15px; 
+  padding-bottom: 5px;
+  margin: 0px;
 }
 
 #day23{
@@ -85,15 +109,17 @@ body{
   float: left;
   width: 33.3%;
   text-align: center;
-  padding: 2.5px; 
+  margin: 0px;
+  padding-bottom: 5px;
 }
 #day24{
   font-size: 8.6vw;
   float: left;
   width: 33.3%;
   text-align: right;
-  padding: 2.5px;
-  padding-right: 5px; 
+  padding-right: 15px; 
+  margin: 0px;
+  padding-bottom: 5px;
 }
 
 .panel_info {
@@ -330,7 +356,7 @@ th {
 }
 
 .eventBox{
-  height: 70px;
+  height: 18vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -420,69 +446,43 @@ selector::-webkit-scrollbar { display:none }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*MEDIA QUERY DESKTOP >1000*/
 /*@media screen and (min-width: 600px)*/
 @media (min-width: 600px) {
-  .livemain_22{
-    margin-top: 10.8vw;
-    width: 33%;
-    float: left;
-    height: 720px;
-    padding: 10px;
-    padding-top: 0px;
-    position: relative;
-    overflow: scroll; 
-    font-size: 10px;
-    display:grid;
-    margin-bottom: 5px;
 
-  }
-  .livemain_23{
-    margin-top: 10.8vw;
-    width: 33%;
-    float: left;
-    height: 720px;
-    overflow: scroll;
-    padding: 10px;
-    padding-top: 0px;
-    position: relative;
-    font-size: 10px;
-    display:grid;
-    margin-bottom: 5px;
-  }
-  .livemain_24{
-    margin-top: 10.8vw;
-    width: 33%;
-    float: left;
-    height: 720px;
-    overflow: scroll;
-    padding: 10px;
-    padding-top: 0px;
-    position: relative;
-    font-size: 30px;
-    display:grid;
-    margin-bottom: 5px;
+  body{
+    margin-left: 13px;
   }
   #header {
-    
     height: 7vw;
-    width: 98.5vw;
-    /*background-color: red;*/
-    border-style: hidden solid solid solid;
-    border-color: black;
-    border-width: 2px;
-    margin: 0px 10px;
-    background-color: transparent;
+    width: 96.75vw;
+    
     
   }
 
   .leftName {
     font-size: 4.2vw;
-    float: left;
-    /*width: 30%;*/
-    padding-left: 10px;
-    text-align: left;
-    top: 1vw;
+   
   }
 
   .rightName {
@@ -496,41 +496,100 @@ selector::-webkit-scrollbar { display:none }
 
   .underName {
     font-size: 1vw;
-    padding-top: 2.8vw;
-    padding-left: 10px;
+    padding-top: 2.5vw;
+    padding-left: 15px;
 
   }
 
+  #date{
+    font-family: 'Arial Rounded MT';
+    position: fixed;
+    top:7vw;
+    width:100%;
+    height: 4vw;
+  }
 
   #day22{
     font-size: 2.4vw;
-    float: left;
-    width: 33.3%;
     text-align: left; 
-    margin-top: 1.3vw;
-    padding: 0px;
+    margin-top: .3vw;
+    margin-left: -10px;
+    padding-left: 20px;
   }
 
   #day23{
     font-size: 2.4vw;
     float: left;
     text-align: left;
-    width: 33.3%;
-    margin-top: 1.3vw; 
+    margin-top: .3vw; 
     padding: 0px;
-    padding-left: 5px;
+    margin-left: -5px;
+    padding-left: 16px;
+    padding-bottom: 5px;
+    
   }
   #day24{
     font-size: 2.4vw;
-    float: left;
-    width: 33.3%;
     text-align: left;
-    margin-top: 1.3vw;
+    margin-top: .3vw;
     padding: 0px;
-    padding-left: 10px;
+    padding-left: 6px;
+    padding-bottom: 5px;
   }
 
-  
+  .livemain_22{
+    margin-top: 10.8vw;
+    width: 33%;
+    float: left;
+    height: 81vh;
+    padding: 10px;
+    padding-top: 0px;
+    position: relative;
+    overflow: scroll; 
+    font-size: 10px;
+    display:grid;
+    margin-bottom: 5px;
+
+  }
+  .livemain_23{
+    margin-top: 10.8vw;
+    width: 33%;
+    float: left;
+    height: 81vh;
+    overflow: scroll;
+    padding: 10px;
+    padding-top: 0px;
+    position: relative;
+    font-size: 10px;
+    display:grid;
+    margin-bottom: 5px;
+  }
+  .livemain_24{
+    margin-top: 10.8vw;
+    width: 33%;
+    float: left;
+    height: 81vh;
+    overflow: scroll;
+    padding: 10px;
+    padding-top: 0px;
+    position: relative;
+    font-size: 30px;
+    display:grid;
+    margin-bottom: 5px;
+  }
+
+  #panorama{
+
+  }
+ 
+  .eventBox{
+    height: 5.2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
   th {
     font-family: 'Arial Rounded MT';
     font-weight: normal;
@@ -554,19 +613,53 @@ selector::-webkit-scrollbar { display:none }
     font-size: 2vw;
     text-align: left;
     line-height: 2vw;
-    padding-top: 5px;
+    padding-top: 2.5px;
     padding-left: 5px;
-    margin-bottom: 30px;
-    margin-top: 1px;
+    margin-bottom: 5px;
+    margin-top: 0px;
     height: 3.5vw;
   }
 
-  .eventName autori{
-    display: inline-block;
+  .didascalia_autori{
     font-size: 1vw;
-    line-height: 1.3vw !important;
-    padding-top: 5px;
+    text-align: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    line-height: 1.1vw;
   }
+
+
+  .didascalia{
+    font-size: 1vw;
+    text-align: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: -5px;
+    margin-bottom: 7.5px;
+    line-height: 1.3vw;
+  }
+
+  .didascaliaGrey{
+    font-size: 1vw;
+    text-align: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    line-height: 1.3vw;
+    color: rgb(178, 180, 182);
+  }
+
+  .didaUrl{
+    font-size: 3vw;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: -5px;
+    margin-bottom: 7.5px;
+  }
+
 
   table{
     border-spacing: 0px;
@@ -583,8 +676,8 @@ selector::-webkit-scrollbar { display:none }
     }
 
   img{
-    width: 95%;
-    max-width: 100%;
+    width: 100%;
+    max-width: 97%;
     margin: 0px 7px 10px 7px; 
   }
 
@@ -595,27 +688,7 @@ selector::-webkit-scrollbar { display:none }
     
   }
 
-  .didascalia{
-    font-size: 1vw;
-    text-align: left;
-    margin-left: 5px;
-    padding-top: 5px;
-    margin-bottom: 15px;
-    margin-top: 10px;
-  }
-
-  .didaUrl{
-    font-size: 1vw;
-    text-align: right;
-    margin-left: auto;
-    margin-right: 7px;
-    padding-top: 5px;
-    margin-bottom: 15px;
-    margin-top: 10px;
-  }
-   p{
-    margin-top: 50px;
-   }
+  
 }
 
 /* MEDIA QUERY SOLO PER HEADER */
