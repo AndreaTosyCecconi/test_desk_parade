@@ -258,7 +258,6 @@ p {
 }
 
 
-
 #insidepanel{
   border:1px solid black;
 }
@@ -295,8 +294,8 @@ outline:none;
 
   font-family: 'Arial Rounded MT';
   /*background-color: rgb(255,255,255);*/
-  
-  margin-bottom: 10px;
+  height: 85vh;
+  margin-bottom: 600px;
   width: 100%;
   font-size: 3vw;
   text-align: left;
@@ -315,8 +314,8 @@ outline:none;
 
   font-family: 'Arial Rounded MT';
   /*background-color: rgb(255,255,255);*/
-  
-  margin-bottom: 10px;
+  height:85vh;
+  margin-bottom: 600px;
   width: 100%;
   font-size: 3vw;
   text-align: left;
@@ -335,8 +334,8 @@ outline:none;
 
   font-family: 'Arial Rounded MT';
   /*background-color: rgb(255,255,255);*/
-  
-  margin-bottom: 20px;
+  height:85vh;
+  margin-bottom: 600px;
   width: 100%;
   font-size: 3vw;
   text-align: left;
@@ -441,7 +440,10 @@ img{
 
 selector::-webkit-scrollbar { display:none }
 
-
+#blocco{
+  height: 600px;
+  width: 100%;
+}
 
 #footer{
   font-family: 'Arial Rounded MT';  
@@ -449,8 +451,8 @@ selector::-webkit-scrollbar { display:none }
   position: absolute;
   z-index: 3;
   overflow:scroll;
-  top:120vh;
-
+  top:200vh;
+  margin-top: 1000px;
   height:70vh;
   background-color: rgb(30, 28, 28); 
   padding: 10px;
@@ -562,7 +564,7 @@ selector::-webkit-scrollbar { display:none }
   .about_colophon {
     
     font-size: 2vw;
-    line-height: 2.2vw;
+    line-height: 2.26vw;
     width: 66.6%;
     height: 100%;
     float: right;
@@ -869,3 +871,56 @@ selector::-webkit-scrollbar { display:none }
   }
 }
 
+
+@media (min-width: 1383px) {
+
+  #footer{
+    float:left;
+    position: absolute;
+    z-index: 3;
+    overflow:scroll;
+    top:120vh;
+    margin-left: -13px;
+    margin-right: -13px;
+    height:53vh;
+    background-color: rgb(30, 28, 28); 
+    padding-left: 25px;
+    padding-top: 20px;
+    }
+  
+
+  .colophon{
+    width: 33%;
+    height: 100%;
+    
+    float: left;
+    color: rgb(178, 180, 182);
+  }
+
+  .sx {
+    
+    width: 40%;
+    float: left;
+    position: relative;
+    font-size:1.1vw;
+    line-height:1.1vw; 
+    margin-top: 0px;
+
+  }
+
+  .sxx{
+    width: 20%;
+
+  }
+
+  .about_colophon {
+    
+    font-size: 1.8vw;
+    line-height: 2.15vw;
+    width: 66.6%;
+    height: 100%;
+    float: right;
+    padding-right: 31px;
+    color: rgb(178, 180, 182);
+
+}
