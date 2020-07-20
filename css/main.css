@@ -193,7 +193,8 @@ body{
   height: 40px;
   overflow-y: hidden;
   overflow-x: overlay;
-  margin: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -598,9 +599,16 @@ selector::-webkit-scrollbar { display:none }
     margin-bottom: 5px;
   }
 
-  #panorama{
-
+   #panorama{
+    height: 40px;
+    overflow-y: hidden;
+    overflow-x: overlay;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
+ 
  
   .eventBox{
     height: 5.2vw;
@@ -655,11 +663,11 @@ selector::-webkit-scrollbar { display:none }
     text-align: left;
     margin-left: 5px;
     margin-right: 5px;
-    margin-top: -5px;
+    margin-top: 0px; /* ??? qui prima era -5px*/
     margin-bottom: 7.5px;
     line-height: 1.3vw;
   }
-
+  
   .didascaliaGrey{
     font-size: 1vw;
     text-align: left;
