@@ -473,8 +473,47 @@ selector::-webkit-scrollbar { display:none }
   width: 100%;
   float: left;
   color: rgb(178, 180, 182);
-
 }
+
+
+#mark{
+  font-family: 'Arial Rounded MT';
+  position: fixed;
+  width: 100%;
+  float: left;
+  top:95vh;
+}
+
+.marque{
+  font-size: 6vw; 
+  height: 70px; 
+  border-style: solid hidden hidden hidden;
+  border-width: 1px;
+  background-color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*MEDIA QUERY DESKTOP >1000*/
 /*@media screen and (min-width: 600px)*/
@@ -487,7 +526,8 @@ selector::-webkit-scrollbar { display:none }
     overflow:scroll;
     top:120vh;
     margin-left: -13px;
-    margin-right: -13px;
+    margin-right: 0px;
+    
     height:53vh;
     background-color: rgb(30, 28, 28); 
     padding-left: 25px;
@@ -533,7 +573,7 @@ selector::-webkit-scrollbar { display:none }
   }
 
   body{
-    margin-left: 6px;
+    padding-left: 6px;
 
   }
 
@@ -603,7 +643,7 @@ selector::-webkit-scrollbar { display:none }
     margin-top: 0px;
     width: 33%;
     float: left;
-    height: 81vh;
+    height: 75vh;
     padding: 10px;
     padding-top: 0px;
     position: relative;
@@ -617,7 +657,7 @@ selector::-webkit-scrollbar { display:none }
     margin-top: 0px;
     width: 33%;
     float: left;
-    height: 81vh;
+    height: 75vh;
     overflow: scroll;
     padding: 10px;
     padding-top: 0px;
@@ -630,7 +670,7 @@ selector::-webkit-scrollbar { display:none }
     margin-top: 0px;
     width: 33%;
     float: left;
-    height: 81vh;
+    height: 75vh;
     overflow: scroll;
     padding: 10px;
     padding-top: 0px;
@@ -744,6 +784,26 @@ selector::-webkit-scrollbar { display:none }
     align-items:center;
     
   }
+  #mark{
+    font-family: 'Arial Rounded MT';
+    position: fixed;
+    top: 94vh;
+    width: 100%;
+    float: left;
+    margin-left: -6px;
+
+  }
+
+  .marque{
+    font-size: 2vw; 
+    height: 100px; 
+    border-style: solid hidden hidden hidden;
+    border-width: 1px;
+    background-color: white;
+      
+  }
+
+
 
   
 }
@@ -823,7 +883,7 @@ selector::-webkit-scrollbar { display:none }
     overflow:scroll;
     top:120vh;
     margin-left: -13px;
-    margin-right: -13px;
+    margin-right: 0px;
     height:53vh;
     background-color: rgb(30, 28, 28); 
     padding-left: 25px;
@@ -863,14 +923,14 @@ selector::-webkit-scrollbar { display:none }
   }
 
   .livemain_22{
-    height: 76vh;
+    height: 73vh;
   }
   .livemain_23{
-    height: 76vh;
+    height: 73vh;
   }
   
   .livemain_24{
-    height: 76vh;
+    height: 73vh;
   }
 
 }
