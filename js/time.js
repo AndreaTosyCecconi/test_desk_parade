@@ -26,43 +26,41 @@ function setup() {
 
   checkLayout();
 
-  triggerOnDate(19, 14, false, "22_1");
-  triggerOnDate(19, 14, false, "22_2");
-  triggerOnDate(19, 14, false, "22_3");
-  triggerOnDate(19, 14, false, "22_4");
-  triggerOnDate(19, 14, false, "22_5");
-  triggerOnDate(19, 14, false, "22_6");
-  triggerOnDate(19, 14, false, "22_7");
-  triggerOnDate(19, 14, false, "22_8");
-  triggerOnDate(19, 14, false, "22_9");
-  triggerOnDate(19, 14, false, "22_10");
-  triggerOnDate(19, 14, false, "22_11");
+  triggerOnDate(19, 9, false, "22_1");
+  triggerOnDate(19, 10, false, "22_2");
+  triggerOnDate(19, 11, false, "22_3");
+  triggerOnDate(19, 11, true, "22_4");
+  triggerOnDate(19, 12, false, "22_5");
+  triggerOnDate(19, 13, false, "22_6");
+  triggerOnDate(19, 15, false, "22_7");
+  triggerOnDate(19, 16, false, "22_8");
+  triggerOnDate(19, 17, false, "22_9");
+  triggerOnDate(19, 19, false, "22_10");
+  triggerOnDate(19, 20, false, "22_11");
 
-  triggerOnDate(19, 14, false, "23_1");
-  triggerOnDate(19, 14, false, "23_2");
-  triggerOnDate(19, 14, false, "23_3");
-  triggerOnDate(19, 14, false, "23_4");
-  triggerOnDate(19, 14, false, "23_5");
-  triggerOnDate(19, 14, false, "23_6");
-  triggerOnDate(19, 14, false, "23_7");
-  triggerOnDate(19, 14, false, "23_8");
-  triggerOnDate(19, 14, false, "23_9");
-  triggerOnDate(19, 14, false, "23_10");
-  triggerOnDate(19, 14, false, "23_11");
+  triggerOnDate(19, 9, false, "23_1");
+  triggerOnDate(19, 10, false, "23_2");
+  triggerOnDate(19, 11, false, "23_3");
+  triggerOnDate(19, 11, true, "23_4");
+  triggerOnDate(19, 12, false, "23_5");
+  triggerOnDate(19, 13, false, "23_6");
+  triggerOnDate(19, 15, false, "23_7");
+  triggerOnDate(19, 16, false, "23_8");
+  triggerOnDate(19, 17, false, "23_9");
+  triggerOnDate(19, 19, false, "23_10");
+  triggerOnDate(19, 20, false, "23_11");
 
-  triggerOnDate(19, 14, false, "24_1");
-  triggerOnDate(19, 14, false, "24_2");
-  triggerOnDate(19, 14, false, "24_3");
-  triggerOnDate(19, 14, false, "24_4");
-  triggerOnDate(19, 14, false, "24_5");
-  triggerOnDate(19, 14, false, "24_6");
-  triggerOnDate(19, 14, false, "24_7");
-  triggerOnDate(19, 14, false, "24_8");
-  triggerOnDate(19, 14, false, "24_9");
-  triggerOnDate(19, 14, false, "24_10");
-  triggerOnDate(19, 14, false, "24_11");
-
-
+  triggerOnDate(19, 9, false, "24_1");
+  triggerOnDate(19, 10, false, "24_2");
+  triggerOnDate(19, 11, false, "24_3");
+  triggerOnDate(19, 11, true, "24_4");
+  triggerOnDate(19, 12, false, "24_5");
+  triggerOnDate(19, 13, false, "24_6");
+  triggerOnDate(19, 15, false, "24_7");
+  triggerOnDate(19, 16, false, "24_8");
+  triggerOnDate(19, 17, false, "24_9");
+  triggerOnDate(19, 19, false, "24_10");
+  triggerOnDate(19, 20, false, "24_11");
   }
 
 function triggerOnDate(day_, hour_, halfAnHour, id){

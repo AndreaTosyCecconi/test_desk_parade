@@ -17,7 +17,6 @@ html{
 body{
   margin: 0;
   overflow: hidden;
-
 }
 
 #main{
@@ -26,11 +25,6 @@ body{
   height: 87vh;
   position: fixed;
 }
-
-
-
-
-
 
 .gifz{
   position: fixed;
@@ -76,20 +70,16 @@ body{
 
 .underName {
   font-size: 3.8vw;
-  width: 75%;
   float: left;
   padding: 2.5px;
   margin-top: -3.6vw;
   margin-bottom: -50px;
-  text-align: left;
-  
 }
 
 #about.underName {
   width: 25%;
   text-align: right;
   float: right;
-
 }
 
 #date{
@@ -181,20 +171,19 @@ body{
 
 .galleryPierini{
   width: 100%;
-  height: 400px;
   margin-bottom: 10px;
   overflow-x: hidden;
   overflow-y: auto;
 }
 
 #panorama {
-  height: 40px;
+  height: 160px;
   overflow-y: hidden;
   overflow-x: overlay;
   margin-left: 5px;
   margin-right: 5px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: -30px;
 }
 
 .about {
@@ -258,6 +247,7 @@ p {
 }
 
 
+
 #insidepanel{
   border:1px solid black;
 }
@@ -294,8 +284,8 @@ outline:none;
 
   font-family: 'Arial Rounded MT';
   /*background-color: rgb(255,255,255);*/
-  height: 85vh;
-  margin-bottom: 600px;
+  
+  margin-bottom: 10px;
   width: 100%;
   font-size: 3vw;
   text-align: left;
@@ -314,8 +304,8 @@ outline:none;
 
   font-family: 'Arial Rounded MT';
   /*background-color: rgb(255,255,255);*/
-  height:85vh;
-  margin-bottom: 600px;
+  
+  margin-bottom: 10px;
   width: 100%;
   font-size: 3vw;
   text-align: left;
@@ -334,8 +324,8 @@ outline:none;
 
   font-family: 'Arial Rounded MT';
   /*background-color: rgb(255,255,255);*/
-  height:85vh;
-  margin-bottom: 600px;
+  
+  margin-bottom: 20px;
   width: 100%;
   font-size: 3vw;
   text-align: left;
@@ -414,7 +404,7 @@ img{
   text-align: left;
   margin-left: 5px;
   margin-right: 5px;
-  margin-top: -8px;
+  margin-top: 4px;
   margin-bottom: 7.5px;
   line-height: 3.6vw;
 }
@@ -439,11 +429,6 @@ img{
 }
 
 selector::-webkit-scrollbar { display:none }
-
-#blocco{
-  height: 600px;
-  width: 100%;
-}
 
 #footer{
   font-family: 'Arial Rounded MT';  
@@ -491,36 +476,9 @@ selector::-webkit-scrollbar { display:none }
 
 }
 
-#uno{
-  order: 3;
-}
-
-#due{
-  order:2;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*MEDIA QUERY DESKTOP >1000*/
 /*@media screen and (min-width: 600px)*/
 @media (min-width: 600px) {
-
 
   #footer{
     float:left;
@@ -534,8 +492,7 @@ selector::-webkit-scrollbar { display:none }
     background-color: rgb(30, 28, 28); 
     padding-left: 25px;
     padding-top: 20px;
-    }
-  
+  }
 
   .colophon{
     width: 33%;
@@ -545,24 +502,20 @@ selector::-webkit-scrollbar { display:none }
     color: rgb(178, 180, 182);
   }
 
-  .sx {
-    
+  .sx {  
     width: 45%;
     float: left;
     position: relative;
     font-size:1.2vw;
     line-height:1.3vw; 
     margin-top: 0px;
-
   }
 
   .sxx{
     width: 10%;
-
   }
 
   .about_colophon {
-    
     font-size: 2vw;
     line-height: 2.26vw;
     width: 66.6%;
@@ -570,18 +523,17 @@ selector::-webkit-scrollbar { display:none }
     float: right;
     padding-right: 31px;
     color: rgb(178, 180, 182);
-
   }
 
   #main{
     top: 11vw;
     width: 100%;
-    height: 78vh;
+    height: 91vh;
     position: fixed;
   }
 
   body{
-    padding-left: 6px;
+    margin-left: 6px;
 
   }
 
@@ -592,8 +544,6 @@ selector::-webkit-scrollbar { display:none }
     height: 7vw;
     width: 97.7vw;
   }
-
-  
     
   .leftName {
     font-size: 4.2vw;
@@ -691,15 +641,14 @@ selector::-webkit-scrollbar { display:none }
   }
 
    #panorama{
-    height: 40px;
+    height: 160px;
     overflow-y: hidden;
     overflow-x: overlay;
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: -30px;
   }
- 
  
   .eventBox{
     height: 5.2vw;
@@ -797,12 +746,6 @@ selector::-webkit-scrollbar { display:none }
   }
 
   
-  
-}
-
-
-
-  
 }
 
 /* MEDIA QUERY SOLO PER HEADER */
@@ -871,7 +814,6 @@ selector::-webkit-scrollbar { display:none }
   }
 }
 
-
 @media (min-width: 1383px) {
 
   #footer{
@@ -886,31 +828,27 @@ selector::-webkit-scrollbar { display:none }
     background-color: rgb(30, 28, 28); 
     padding-left: 25px;
     padding-top: 20px;
-    }
+  }
   
 
   .colophon{
     width: 33%;
     height: 100%;
-    
     float: left;
     color: rgb(178, 180, 182);
   }
 
   .sx {
-    
     width: 40%;
     float: left;
     position: relative;
     font-size:1.1vw;
     line-height:1.1vw; 
     margin-top: 0px;
-
   }
 
   .sxx{
     width: 20%;
-
   }
 
   .about_colophon {
@@ -936,3 +874,4 @@ selector::-webkit-scrollbar { display:none }
   }
 
 }
+
