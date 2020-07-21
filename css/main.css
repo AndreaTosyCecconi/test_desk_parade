@@ -438,7 +438,7 @@ selector::-webkit-scrollbar { display:none }
   overflow:scroll;
   top:200vh;
   margin-top: 1000px;
-  height:70vh;
+  height:80vh;
   background-color: rgb(30, 28, 28); 
   padding: 10px;
   padding-left: 13px;
